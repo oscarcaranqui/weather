@@ -29,6 +29,7 @@ let loadDayForecastData = () => {
     const late_temperature = document.getElementById("late_temperature")
     late_temperature.innerHTML = weather_data[0]["forecast_today"][0]["text"]
 
+    
     const late_forecast = document.getElementById("late_forecast")
     late_forecast.innerHTML = weather_data[0]["forecast_today"][0]["forecast"]
 
